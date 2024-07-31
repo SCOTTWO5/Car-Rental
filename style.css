@@ -109,8 +109,10 @@
 #body-type-section,
 #collection-section, 
 #how-section,
+#service-section,
 .collection-section-header-container,
-.how-section-header-container{
+.how-section-header-container,
+.service-section-header-container{
     display: flex;
     justify-content: center;
     margin: 40px 0px;
@@ -118,8 +120,9 @@
 
 .brand-section-container, 
 .body-type-section-container, 
-.collection-section-container
-.how-section-container{
+.collection-section-container,
+.how-section-container
+.service-section-container{
     width: 90vw;
 }
 
@@ -169,13 +172,15 @@
     margin-bottom: unset;
 }
 .collection-section-header,
-.how-section-header{
+.how-section-header,
+.service-section-header{
     width: 55%;
     text-align: center;
 }
 
 .collection-section-header p,
-.how-section-header p{
+.how-section-header p,
+.service-section-header p{
     padding: 15px 0px;
 }
 
@@ -291,7 +296,8 @@
 }
 
 .collection-section-header h1,
-.how-section-header h1{
+.how-section-header h1,
+.service-section-header h1{
     font-family: sans-serif;
 }
 
@@ -357,4 +363,11 @@
     align-items: center;
     height: 450px;
     border-radius: ;
+}
+
+#service-section{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 40px 0px;
+    margin-bottom: unset;
 }
