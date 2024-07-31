@@ -371,3 +371,34 @@
     padding: 40px 0px;
     margin-bottom: unset;
 }
+
+.service-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+}
+
+.service-item .service-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-icon-container .service-icon{
+    background-color: #ffffff;
+    padding: 12px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.service-item .service-content{
+    text-align: center;
+}
+
+.service-item .service-content h4{
+    padding: 10px 0px;
+}
+
+.service-item .service-content p{
+    padding: 10px;
+}
