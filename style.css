@@ -110,6 +110,7 @@
 #collection-section, 
 #how-section,
 #service-section,
+#comment-section,
 .collection-section-header-container,
 .how-section-header-container,
 .service-section-header-container{
@@ -121,16 +122,21 @@
 .brand-section-container, 
 .body-type-section-container, 
 .collection-section-container,
-.how-section-container
-.service-section-container{
+.how-section-container,
+.service-section-container,
+.comment-section-container{
     width: 90vw;
 }
 
-.brand-section-header, .body-type-section-header{
+.brand-section-header, 
+.body-type-section-header,
+.comment-section-header{
     display: flex;
 }
 
-.brand-section-button, .body-type-section-button{
+.brand-section-button, 
+.body-type-section-button,
+.comment-section-buttons{
     width: 88%;
     display: flex;
     justify-content: end;
@@ -296,8 +302,7 @@
 }
 
 .collection-section-header h1,
-.how-section-header h1,
-.service-section-header h1{
+.how-section-header h1{
     font-family: sans-serif;
 }
 
@@ -362,7 +367,7 @@
     justify-content: center;
     align-items: center;
     height: 450px;
-    border-radius: ;
+    border-radius: 7px;
 }
 
 #service-section{
@@ -401,4 +406,51 @@
 
 .service-item .service-content p{
     padding: 10px;
+}
+
+.comment-section-buttons{
+    width: 75% !important;
+}
+
+.comment-section-buttons button{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin: 5px 5px;
+    cursor: pointer;
+}
+
+.comment-section-buttons .comment-section-button-1{
+    background-color: #ffffff;
+    color: #E5E4E2;
+    border: 1px solid #E5E4E2;
+}
+
+.comment-section-buttons .comment-section-button-2{
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+}
+
+.comment-content{
+    width: 90%;
+    margin: 10px 0px;
+}
+
+.comment-content p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.comment-owner-container{
+    display: flex;
+    margin: 30px 0px;
+}
+
+.comment-owner-container-content{
+    margin-left: 15px;
+    padding-top: 10px;
+}
+
+.comment-owner-container-content h4{
+    padding: 10px 0px;
 }
