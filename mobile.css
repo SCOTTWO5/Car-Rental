@@ -1,5 +1,4 @@
 @media (max-width: 600px) {
-    #comment-section,
     #download-section,
     footer{
         display: none;
@@ -72,4 +71,12 @@
         width: 100%;
     }
 
+    .comment-section-buttons button{
+        width: 30px;
+        height: 30px;
+    }
+
+    .comment-section-header h1{
+        font-size: 20px;
+    }
 }
