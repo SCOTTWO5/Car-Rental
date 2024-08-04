@@ -120,7 +120,7 @@ a{
 .collection-section-header-container,
 .how-section-header-container,
 .service-section-header-container,
-.footer{
+footer{
     display: flex;
     justify-content: center;
     margin: 40px 0px;
@@ -271,7 +271,7 @@ a{
     border-radius: 8px;
 }
 
-.spec{
+.specs{
     text-align: center;
 }
 
