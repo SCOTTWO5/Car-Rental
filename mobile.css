@@ -43,7 +43,10 @@
         grid-template-columns: auto;
     }
 
-    .how-container{
+    .how-container,
+    .download-section-container,
+    .download-section-container .download-button-container,
+    .footer-container{
         flex-direction: column;
     }
 
@@ -75,26 +78,14 @@
         font-size: 20px;
     }
 
-    .download-section-container{
-        flex-direction: column;
-    }
-
     .download-section-container > .download-content{
         width: 100%;
         padding: 0;
         margin: 0;
     }
 
-    .download-section-container .download-button-container{
-        flex-direction: column;
-    }
-
     .download-button{
         margin: 10px 0px;
-    }
-
-    .footer-container{
-        flex-direction: column;
     }
 
     .footer-logo,
